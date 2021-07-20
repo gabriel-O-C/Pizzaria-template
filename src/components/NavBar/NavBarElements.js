@@ -4,18 +4,19 @@ import {FaPizzaSlice} from "react-icons/fa"
 
 
 export const Nav = styled.nav`
-    background: red;
+    background: transparent;
     height: 80px;
     display: flex;
     justify-content: center;
+    align-items: center;
     font-weight: 700;
+    color: #fff;
 `;
 
 export const NavLink = styled(Link)`
+  
     color: #fff;
     font-size: 2rem;
-    display: flex;
-    align-items: center;
     text-decoration: none;
     cursor: pointer;
 
@@ -29,22 +30,26 @@ export const NavLink = styled(Link)`
 `;
 export const NavIcon = styled.div `
     display: flex;
+    justify-content: center;
+    align-items: center;   
     flex-direction: column;
-    align-items: center;
     position: absolute;
     top: 0;
-    right: 15px;
+    right: 0;
     cursor: pointer;
     color: #fff;
+    margin-top: 25px;
+    margin-right: 25px;
+   
 
 
     p {
-       tranform: translate(-175%, 100%);
+       font-size: 1rem;
         font-weight: bold;
     }
 `;
 
 export const Bars = styled(FaPizzaSlice)`
-    font-size: 2rem;
-    transform: translate(-50%, -15%)
+    font-size: 2rem;  
+    transform: translate(-150%, -85%);   
 `;
