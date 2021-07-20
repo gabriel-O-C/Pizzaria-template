@@ -5,6 +5,7 @@ export const HeroContainer = styled.div`
     background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url(${imgBg});
     height: 100vh;
     overflow-x: hidden;
+    overflow-y: hidden;
 `;
 
 export const HeroContent = styled.div`

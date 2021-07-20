@@ -10,7 +10,7 @@ function NavBar({toggle}) {
             
                 <NavIcon onClick={toggle}>
                 <p>Menu</p>
-                <Bars></Bars>            
+                <Bars/>                     
                 </NavIcon>
          
        </Nav>
